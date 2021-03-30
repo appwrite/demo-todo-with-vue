@@ -48,10 +48,9 @@ Use the following buttons to deploy to your favourite hosting provider in one cl
 
 Make sure to select Vue from the Framework presets 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fappwrite%2Ftodo-with-vue&env=VITE_APP_ENDPOINT,VITE_APP_PROJECT,VITE_APP_COLLECTION_ID&envDescription=Your%20Appwrite%20Endpoint%2C%20Project%20ID%20and%20Collection%20ID%20)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fchristyjacob4%2Fvue-todo-mvc&env=VITE_APP_COLLECTION_ID,VITE_APP_PROJECT,VITE_APP_ENDPOINT&envDescription=Your%20Appwrite%20Endpoint%2C%20Project%20ID%20and%20Collection%20ID%20)
 
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/appwrite/todo-with-vue)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/christyjacob4/vue-todo-mvc)
 
 You will need to enter the environemnt variables we discussed above when prompted.
 
@@ -60,8 +59,8 @@ You will need to enter the environemnt variables we discussed above when prompte
 Follow these instructions to run the demo app locally
 
 ```sh
-$ git clone https://github.com/appwrite/todo-with-vue
-$ cd todo-with-vue
+$ git clone https://github.com/christyjacob4/vue-todo-mvc
+$ cd vue-todo-mvc
 ```
 
 Run the following command to generate your `.env` vars  
