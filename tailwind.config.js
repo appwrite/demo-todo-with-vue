@@ -3,7 +3,7 @@ module.exports = {
     enable : true,
     content: ['./src/**/*.{js,jsx,ts,tsx,vue}', './public/index.html'],
     options : {
-      safelist: [/^w-/]
+      safelist: [/^w-/, /^bg-[a-z]*-500/]
     },
   },
   darkMode: false, // or 'media' or 'class'
