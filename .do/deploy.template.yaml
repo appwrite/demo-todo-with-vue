@@ -1,0 +1,20 @@
+spec:
+  name: todo-with-vue
+  static_sites:
+  - environment_slug: html
+    git:
+      branch: main
+      repo_clone_url: https://github.com/appwrite/todo-with-vue.git
+    name: todo-with-vue
+    output_dir: dist
+    build_command: npm run build
+    envs:
+      - key: VITE_APP_ENDPOINT
+        value: Your Appwrite endpoint
+        scope: RUN_TIME
+      - key: VITE_APP_PROJECT
+        value: Your Appwrite Project ID
+        scope: RUN_TIME
+      - key: VITE_APP_COLLECTION_ID
+        value: Your Appwrite Collection ID
+        scope: RUN_TIME

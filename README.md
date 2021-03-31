@@ -44,16 +44,15 @@ You have two options to deploy the front-end and we will cover both of them here
 
 ### **Deploy to a Static Hosting Provider**
 
-Use the following buttons to deploy to your favourite hosting provider in one click! We support Vercel, Netlify and DigitalOcean 
+Use the following buttons to deploy to your favourite hosting provider in one click! We support Vercel, Netlify and DigitalOcean. You will need to enter the environment variables above when prompted.
 
-Make sure to select Vue from the Framework presets 
+> Note: Vercel is unable to auto detect the framework so please use the Vue Framework in case of vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fappwrite%2Ftodo-with-vue&env=VITE_APP_ENDPOINT,VITE_APP_PROJECT,VITE_APP_COLLECTION_ID&envDescription=Your%20Appwrite%20Endpoint%2C%20Project%20ID%20and%20Collection%20ID%20)
 
-
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/appwrite/todo-with-vue)
 
-You will need to enter the environemnt variables we discussed above when prompted.
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/appwrite/todo-with-vue/tree/main)
 
 ### **Run locally**
 
