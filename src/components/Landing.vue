@@ -2,16 +2,16 @@
   <!-- Hero -->
   <section class="container h-screen mx-auto flex">
     <div class="flex flex-col mx-auto justify-center p-6 text-center">
-      <p class="my-8 text-2xl font-medium">Introducing</p>
-      <h1 class="text-9xl font-bold">toTooooDoooo</h1>
-      <p class="my-8 text-2xl font-medium">
+      <p class="my-8 text-xl md:text-2xl lg:text-3xl font-medium">Introducing</p>
+      <h1 class="text-4xl md:text-7xl lg:text-9xl font-bold">toTooooDoooo</h1>
+      <p class="my-8 text-xl md:text-2xl lg:text-3xl font-medium">
         A Simple To-do App built with
         <img class="w-8 h-8 inline" src="../assets/appwrite.svg" /> Appwrite
         and <img class="w-8 h-8 inline" src="../assets/vue.svg" /> Vue
       </p>
       <button
         @click="$router.push('/todos')"
-        class="mx-auto mt-4 py-5 px-24 font-semibold text-2xl rounded-lg shadow-md bg-white text-gray-900 border border-gray-900 hover:border-transparent hover:text-white hover:bg-gray-900 focus:outline-none"
+        class="mx-auto mt-4 py-3 lg:py-5 px-10 lg:px-24 text-lg md:text-2xl font-semibold  rounded-lg shadow-md bg-white text-gray-900 border border-gray-900 hover:border-transparent hover:text-white hover:bg-gray-900 focus:outline-none"
       >
         Get Started
       </button>
