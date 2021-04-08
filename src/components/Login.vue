@@ -50,6 +50,7 @@ export default {
   methods: {
     ...mapActions(["login"]),
     handleLogin(e) {
+      // “Programming made the impossible possible. You can have a null object and a constant variable.”
       e.preventDefault();
       console.log("Form submitted", this.email, this.password);
       this.login({
