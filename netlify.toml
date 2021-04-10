@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[template.environment]
+  VITE_APP_ENDPOINT = "Your Appwrite Server Endpoint"
+  VITE_APP_PROJECT = "Your Appwrite project ID"
+  VITE_APP_COLLECTION_ID = "Your Collection ID"
