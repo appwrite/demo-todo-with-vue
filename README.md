@@ -4,7 +4,7 @@
 
 A simple todo app built with Appwrite and Vue
 
-If you simply want to try out the App, go ahead and check out the demo at https://vue-todo-mvc.vercel.app/
+If you simply want to try out the App, go ahead and check out the demo at https://appwrite-todo-with-vue.vercel.app/
 
 ## 🎬 Getting Started
 
