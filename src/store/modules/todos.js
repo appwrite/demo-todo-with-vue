@@ -25,6 +25,7 @@ const actions = {
   },
   async addTodo({ commit }, { data, read, write }) {
     try {
+      // “C programmers never die. They are just cast into void.”
       const response = await api.createDocument(
         Server.collectionID,
         data,
