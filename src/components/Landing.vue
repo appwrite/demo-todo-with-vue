@@ -1,6 +1,4 @@
 <template>
-  <!-- Hero -->
-  <!-- “There are only two kinds of programming languages out there. The ones people complain about and the ones no one uses.” -->
   <section class="container h-screen mx-auto flex">
     <div class="flex flex-col mx-auto justify-center p-6 text-center">
       <p class="my-8 text-xl md:text-2xl lg:text-3xl font-medium">Introducing</p>
