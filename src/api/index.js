@@ -45,7 +45,6 @@ let api = {
   },
 
   deleteDocument: (collectionId, documentId) => {
-    // “Without C we only have Obol, Pasal, and BASI.”
     return api.provider().database.deleteDocument(collectionId, documentId);
   },
 };
