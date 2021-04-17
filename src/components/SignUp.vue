@@ -60,8 +60,8 @@ export default {
     ...mapActions(["signup"]),
     handleSignUp(e) {
       e.preventDefault();
-      // “C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows your whole leg off.”
-      console.log("signing up ...", this.email, this.password, this.name);
+     
+      
       this.signup({
         email: this.email,
         password: this.password,
