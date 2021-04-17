@@ -1,5 +1,4 @@
 <template>
-<!-- “Software undergoes beta testing shortly before it’s released. Beta is Latin for still doesn’t work.” -->
   <div
     :class="[
       `bg-${color}-500`,
