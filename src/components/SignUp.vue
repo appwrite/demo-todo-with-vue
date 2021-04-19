@@ -5,7 +5,7 @@
       <p class="mt-4">
         Already have an account ?
         <span class="cursor-pointer underline">
-          <router-link to="/signup"> Login </router-link>
+          <router-link to="/login"> Login </router-link>
         </span>
       </p>
       <form @submit="handleSignUp">
