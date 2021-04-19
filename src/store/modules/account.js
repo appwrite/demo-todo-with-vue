@@ -52,7 +52,6 @@ const actions = {
     }
   },
   logout: async ({ commit }) => {
-    // “When your hammer is C++, everything begins to look like a thumb.”
     try {
       await api.deleteCurrentSession();
       commit("setAccount", null);
