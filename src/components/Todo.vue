@@ -71,7 +71,6 @@ export default {
     },
   },
   created() {
-    // “The evolution of languages: FORTRAN is a nontyped language. C is a weakly typed language. Ada is a strongly typed language. C++ is a strongly hyped language.”
     if (!this.getAccount) this.fetchAccount();
     this.fetchTodos();
   },
