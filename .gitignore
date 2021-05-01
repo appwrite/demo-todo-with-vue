@@ -86,7 +86,6 @@ dist
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
-# “If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl programs.”
 # public
 
 # vuepress build output
