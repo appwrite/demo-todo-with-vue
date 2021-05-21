@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.2",
-    "appwrite": "^2.0.0",
+    "appwrite": "^3.0.1",
     "vue": "^3.0.5",
     "vue-router": "^4.0.5",
     "vuex": "^4.0.0"
