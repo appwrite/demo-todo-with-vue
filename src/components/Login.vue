@@ -21,7 +21,6 @@
           class="w-full p-4 placeholder-gray-400 text-gray-700 bg-white text-lg border-0 border-b-2 border-gray-400 focus:ring-0 focus:border-gray-900"
           type="password"
         />
-
         <div class="mt-6">
           <button
             :disabled="!email || !password"
