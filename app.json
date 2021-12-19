@@ -1,0 +1,24 @@
+{
+  "env": {
+    "VITE_APP_ENDPOINT": {
+      "description": "Your Appwrite endpoint",
+      "value": "APP_ENDPOINT",
+      "required": true
+    },
+    "VITE_APP_PROJECT": {
+      "description": "Your Appwrite project ID",
+      "value": "PROJECT_ID",
+      "required": true
+    },
+    "VITE_APP_COLLECTION_ID": {
+      "description": "Your Appwrite collection ID",
+      "value": "COLLECTION_ID",
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "READONLY, prevents pruning of developer dependencies",
+      "value": "false",
+      "required": false
+    }
+  }
+}
