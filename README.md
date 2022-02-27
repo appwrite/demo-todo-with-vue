@@ -16,26 +16,27 @@ Follow our simple [Installation Guide](https://appwrite.io/docs/installation) to
 We need to make a few configuration changes to your Appwrite server. 
 
 1. Add a new Web App in Appwrite and enter the endpoint of your website (`localhost, <project-name>.vercel.app etc`)
-![Create Web App](https://user-images.githubusercontent.com/20852629/113019434-3c27c900-919f-11eb-997c-1da5a8303ceb.png)
+![Appwrite Console](https://user-images.githubusercontent.com/31401437/155891052-09bb17e4-a30c-4c73-8c9f-b1cc0b44c596.png)
 
 2. Create a new collection with the following properties
-* **Rules**
-Add the following rules to the collection. 
-> Make sure that your key exactly matches the key in the images
+* **Attributes**
+Add the following attributes to the collection. 
+> Make sure that your Attribute ID exactly matches the key in the images
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/20852629/113019972-c3753c80-919f-11eb-9b3a-c3690785bbf4.png" alt="Content Rule" width="400"/>
+<img src="https://user-images.githubusercontent.com/31401437/155890880-d4e46483-e2cc-4d06-b527-7c6d9f8a152f.png" alt="Content Attribute" width="400">
 </p>
 
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/20852629/113020008-cec86800-919f-11eb-8cc2-473f8d15fc3f.png" alt="IsComplete Rule" width="400"/>
+<img src="https://user-images.githubusercontent.com/31401437/155890899-e8ac0ef9-a0e2-4bde-add8-caee55a02e6b.png" alt="IsComplete Attribute" width="400">
 </p>
 
 * **Permissions**
-Add the following permissions to your collections. These permissions ensure that only registered users can access the collection.
+Add the following permissions to your collection. These permissions ensure that only registered users can access the collection.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/20852629/113019801-99bc1580-919f-11eb-9a94-13b1529cb925.png" alt="Collection Permissions" width="400"/>
+<img src="https://user-images.githubusercontent.com/31401437/155890959-c9e6bdd6-b6b6-4ae5-8680-3c6aeea716ef.png" alt="Collection Permissions" width="400">
 </p>
 
 ### 🚀 Deploy the Front End
