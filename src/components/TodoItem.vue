@@ -40,8 +40,8 @@ export default {
       const payload = {
         data: data,
         documentId: todo["$id"],
-        read: todo["$permissions"]["read"],
-        write: todo["$permissions"]["write"],
+        read: todo["$read"],
+        write: todo["$write"],
       };
       this.updateTodo(payload);
     },
