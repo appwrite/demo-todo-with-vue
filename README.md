@@ -45,6 +45,7 @@ You have two options to deploy the front-end and we will cover both of them here
 * VITE_APP_ENDPOINT - Your Appwrite endpoint
 * VITE_APP_PROJECT - Your Appwrite project ID
 * VITE_APP_COLLECTION_ID - Your Appwrite collection ID 
+* VITE_APP_DATABASE_ID - Your Appwrite database ID
 
 ### **Deploy to a Static Hosting Provider**
 
