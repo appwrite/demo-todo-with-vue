@@ -23,13 +23,12 @@ const actions = {
       );
     }
   },
-  async addTodo({ commit }, { data, read, write }) {
+  async addTodo({ commit }, { data, userId }) {
     try {
       const response = await api.createDocument(
         Server.collectionID,
         data,
-        read,
-        write
+        userId
       );
       console.log(response);
       commit("addTodo", response);
@@ -46,14 +45,12 @@ const actions = {
       );
     }
   },
-  async updateTodo({ commit }, { documentId, data, read, write }) {
+  async updateTodo({ commit }, { documentId, data}) {
     try {
       const response = await api.updateDocument(
         Server.collectionID,
         documentId,
-        data,
-        read,
-        write
+        data
       );
       commit("updateTodo", response);
     } catch (e) {

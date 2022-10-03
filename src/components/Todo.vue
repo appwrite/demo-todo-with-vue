@@ -60,11 +60,9 @@ export default {
           content: this.content,
           isComplete: false,
         };
-        const read = [`user:${userId}`];
         this.addTodo({
           data,
-          read,
-          write: read,
+          userId
         });
         this.content = ""
       }

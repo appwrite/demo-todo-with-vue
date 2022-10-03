@@ -9,7 +9,7 @@ const actions = {
   signup: async ({ commit }, { email, password, name }) => {
     try {
       const account = await api.createAccount(email, password, name);
-      await api.createEmailSession(email, password);
+      await api.createSession(email, password);
       commit("setAccount", account);
     } catch (e) {
       console.log("Error creating Account");
@@ -29,7 +29,7 @@ const actions = {
       const account = await api.getAccount();
       commit("setAccount", account);
     } catch (e) {
-      console.log("Error getting Account");
+      console.log("Error getting Account", e);
     }
   },
   login: async ({ commit }, { email, password }) => {
