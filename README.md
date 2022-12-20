@@ -36,8 +36,8 @@ Add the following attributes to the collection.
 Add the following permissions to your collection. These permissions ensure that only registered users can access the collection.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/31401437/155890959-c9e6bdd6-b6b6-4ae5-8680-3c6aeea716ef.png" alt="Collection Permissions" width="400">
-</p>
+<img src="https://user-images.githubusercontent.com/75582834/193613983-0578e951-7721-4c4b-a194-dc56941a5ad9.png" alt="Collection Permissions" width="400">
+
 
 ### 🚀 Deploy the Front End
 You have two options to deploy the front-end and we will cover both of them here. In either case, you will need to fill in these environment variables that help your frontend connect to Appwrite.

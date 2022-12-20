@@ -39,9 +39,7 @@ export default {
       };
       const payload = {
         data: data,
-        documentId: todo["$id"],
-        read: todo["$read"],
-        write: todo["$write"],
+        documentId: todo["$id"]
       };
       this.updateTodo(payload);
     },
