@@ -8,12 +8,12 @@ If you simply want to try out the App, go ahead and check out the demo at https:
 
 ## 🎬 Getting Started
 
-### 🤘 Install Appwrite 
-Follow our simple [Installation Guide](https://appwrite.io/docs/installation) to get Appwrite up and running in no time. You can either deploy Appwrite on your local machine or, on any cloud provider of your choice. 
+### 🤘 Create Appwrite Project
+The easiest way to get started with Appwrite is by [signing up for Appwrite Cloud](https://cloud.appwrite.io/).
 
-> Note: If you setup Appwrite on your local machine, you will need to create a public IP so that your hosted frontend can access it.
+> If you want to try self-hosting Appwrite, follow our simple [Self-Hosting Guide](https://appwrite.io/docs/self-hosting) to get Appwrite up and running in no time. You can either deploy Appwrite on your local machine or, on any cloud provider of your choice. 
   
-We need to make a few configuration changes to your Appwrite server. 
+We need to make a few configuration changes to your Appwrite project. 
 
 1. Add a new Web App in Appwrite and enter the endpoint of your website (`localhost, <project-name>.vercel.app etc`)
 ![Appwrite Console](https://user-images.githubusercontent.com/31401437/155891052-09bb17e4-a30c-4c73-8c9f-b1cc0b44c596.png)
